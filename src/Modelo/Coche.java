@@ -17,5 +17,6 @@ public class Coche extends Vehiculo{
     @Override
     public void conducir() {
         System.out.println("Conduciendo un coche " + getMarca() + " " + getModelo());
+        System.out.println("VERSION 2025");
 }
 }
